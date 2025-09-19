@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+*.env
+
+# Build outputs
+dist/
+build/
+.dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# ML Models (optional - uncomment if models are large)
+# *.pkl
+# *.joblib
+
+# Package files
+*.tgz
+*.tar.gz
