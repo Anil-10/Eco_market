@@ -27,6 +27,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
           src={product.imgUrl}
           alt={product.title}
           className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+          loading="lazy"
           onError={(e) => {
             const target = e.target as HTMLImageElement;
             target.src = 'https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg';
